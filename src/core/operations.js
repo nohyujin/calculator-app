@@ -1,7 +1,7 @@
 // 기본 연산 클래스들
 
 const path = require('path');
-const { validateNumber, roundToPrecision } = require(path.join(__dirname, '../utils/number-utils'));
+import { validateNumber, roundToPrecision } from '../utils/number-utils.js';
 
 /**
  * 연산의 기본 클래스

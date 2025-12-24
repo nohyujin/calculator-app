@@ -1,6 +1,6 @@
 // 과학 함수 클래스들
 
-const { validateNumber } = require(require('path').join(__dirname, '../utils/number-utils'));
+import { validateNumber } from '../utils/number-utils.js';
 
 /**
  * Sin 함수 (도 단위)
