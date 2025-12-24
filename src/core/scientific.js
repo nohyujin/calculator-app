@@ -61,10 +61,12 @@ class SqrtFunction {
     }
 }
 
-module.exports = {
+
+export {
     SinFunction,
     CosFunction,
     TanFunction,
     LnFunction,
     SqrtFunction
 };
+

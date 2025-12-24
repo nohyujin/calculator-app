@@ -1,6 +1,5 @@
 // 기본 연산 클래스들
 
-const path = require('path');
 import { validateNumber, roundToPrecision } from '../utils/number-utils.js';
 
 /**
@@ -59,10 +58,11 @@ class Division extends Operation {
     }
 }
 
-module.exports = {
+export {
     Operation,
     Addition,
     Subtraction,
     Multiplication,
     Division
 };
+

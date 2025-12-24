@@ -54,8 +54,10 @@ function roundToPrecision(num, precision = 10) {
     return Math.round(num * multiplier) / multiplier;
 }
 
-module.exports = {
+
+export {
     formatNumber,
     validateNumber,
     roundToPrecision
 };
+
